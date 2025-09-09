@@ -27,7 +27,7 @@
 
 1. Клонируйте репозиторий:
    ```
-   git clone https://github.com/WhenYouAreStrange/CountdownTimer
+   git clone https://github.com/WhenYouAreStrange/Countdown-Timer
    ```
 2. Откройте файл `index.html` в любом современном браузере (Chrome, Firefox, Safari и т.д.).
 3. Убедитесь, что папка `sounds/` содержит файлы `time_sound.mp3` и `time_end.mp3`.
