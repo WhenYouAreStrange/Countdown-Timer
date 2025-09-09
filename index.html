@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таймер обратного отсчёта</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="time-input">
+            <div class="time-field">
+                <input type="number" id="hoursInput" min="0" max="99" value="0">
+                <label for="hoursInput">HH</label>
+            </div>
+            <div class="time-field">
+                <input type="number" id="minutesInput" min="0" max="59" value="0">
+                <label for="minutesInput">MM</label>
+            </div>
+            <div class="time-field">
+                <input type="number" id="secondsInput" min="0" max="59" value="0">
+                <label for="secondsInput">SS</label>
+            </div>
+        </div>
+        <div class="timer" id="timerDisplay">
+            <span class="digit" id="h1">0</span>
+            <span class="digit" id="h2">0</span>
+            <span class="colon">:</span>
+            <span class="digit" id="m1">0</span>
+            <span class="digit" id="m2">0</span>
+            <span class="colon">:</span>
+            <span class="digit" id="s1">0</span>
+            <span class="digit" id="s2">0</span>
+        </div>
+        <div class="controls">
+            <button id="startBtn">Старт</button>
+            <button id="pauseBtn">Пауза</button>
+            <button id="restartBtn">Рестарт</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
