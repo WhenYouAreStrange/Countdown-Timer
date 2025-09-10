@@ -6,8 +6,19 @@
     <title>Таймер обратного отсчёта</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+    </style>
 </head>
 <body>
+    <div class="theme-toggle">
+        <div class="toggle-container">
+            <input type="checkbox" id="themeToggle" class="toggle-input">
+            <label for="themeToggle" class="toggle-slider">
+                <span class="toggle-handle"></span>
+            </label>
+        </div>
+    </div>
     <div class="container">
         <div class="time-input">
             <div class="time-field">
@@ -34,9 +45,9 @@
             <span class="digit" id="s2">0</span>
         </div>
         <div class="controls">
-            <button id="startBtn">Старт</button>
-            <button id="pauseBtn">Пауза</button>
-            <button id="restartBtn">Рестарт</button>
+            <button id="startBtn">СТАРТ</button>
+            <button id="pauseBtn">ПАУЗА</button>
+            <button id="restartBtn">РЕСТАРТ</button>
         </div>
     </div>
     <script src="script.js"></script>
