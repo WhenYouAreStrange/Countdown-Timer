@@ -100,11 +100,13 @@ body.dark-theme .time-field input[type="number"]:focus {
 
 .time-field input[type="number"]::-webkit-outer-spin-button,
 .time-field input[type="number"]::-webkit-inner-spin-button {
+    appearance: none;
     -webkit-appearance: none;
     margin: 0;
 }
 
 .time-field input[type="number"] {
+    appearance: textfield;
     -moz-appearance: textfield;
 }
 
